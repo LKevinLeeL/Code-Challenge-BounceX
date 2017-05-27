@@ -1,0 +1,109 @@
+/*************************
+ *  your code goes here  *
+ *************************/
+.bx-group-1 {
+  height: 300px;
+  background:
+  linear-gradient( rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.50)), url('../img/modal-bg.png');
+  background-size: cover;
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  margin-bottom: 10px;
+}
+
+.bx-row-headline p {
+  /*color: #59291c;*/
+  color: #ED7800;
+  font-size: 60px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-family: "insanibc", Arial;
+}
+
+.bx-row-subheadline p {
+  color: #fff;
+  font-size: 17px;
+}
+
+.bxc .bx-close-circle {
+  right: 0.5em !important;
+}
+
+.bxc .bx-close-circle::before {
+  font-family: "FontAwesome";
+  content: '\f00d';
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.bx-group-2 input {
+  border-radius: 50px;
+  width: 90% !important;
+  color: #ED7800;
+}
+.bx-group-2 input:focus {
+  /*border-radius: 10px;*/
+  outline: none;
+  border-color: #ED7800 !important;
+}
+
+.bx-group-2 {
+  margin-top: -40px;
+}
+
+.bx-group-3 {
+  margin: 20px 0;
+}
+
+.bx-group-3 .bx-row-text {
+  color: #737373;
+  font-size: 12px;
+}
+
+.bx-row-submit button {
+  background: #ED7800 !important;
+  border: none !important;
+  font-family: "insanibc", Arial;
+  letter-spacing: 2px;
+  font-size: 30px;
+  border-radius: 50px;
+  width: 50% !important;
+}
+
+
+/*placeholder animations*/
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.5s 0.5s ease;
+  text-indent: -100%;
+  opacity: .5;
+  color: #ED7800;
+}
+
+
+
+/*End placeholder animations*/
+
+
+/*MEDIA QUERIES*/
+@media (max-width: 786px) and (min-width: 320px) {
+  .bx-row-headline p {
+    font-size: 50px;
+    line-height: 45px;
+  }
+  .bx-row-submit button {
+    width: 90% !important;
+    font-size: 20px;
+  }
+  .bx-row input {
+    height: 50px;
+  }
+}

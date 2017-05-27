@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'insanibc';
+  src: url(../assets/fonts/insanibc.eot);
+  src: url(../assets/fonts/insanibc.otf) format('opentype');
+  src: url(../assets/fonts/insanibc.svg) format('svg');
+  src: url(../assets/fonts/insanibc.ttf) format('truetype');
+  src: url(../assets/fonts/insanibc.woff) format('woff');
+}

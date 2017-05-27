@@ -1,0 +1,222 @@
+/*************************
+ *  your code goes here  *
+ *************************/
+
+.bx-type {
+  width: 768px;
+  overflow-x: hidden;
+}
+
+.bx-type .bx-creative {
+  background-color: #ffc216;
+  width: 768px;
+  min-height: 600px;
+}
+
+.bx-type .bx-close-circle::before {
+  display: none;
+}
+
+.bx-type .bx-close-circle:after {
+  content:'' !important;
+  background: url('../assets/lock.png');
+  background-repeat: no-repeat;
+  background-size: 60px;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 15px;
+  right: -23px;
+}
+
+.bx-type .triangle {
+  background-image: -moz-linear-gradient( 90deg, rgb(255,181,0) 0%, rgb(255,204,0) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(255,181,0) 0%, rgb(255,204,0) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(255,181,0) 0%, rgb(255,204,0) 100%);
+  position: absolute;
+  top: -10% !important;
+  right: -20% !important;
+  width: 330px;
+  height: 190px;
+  -ms-transform: rotate(50deg);
+  -webkit-transform: rotate(50deg);
+  transform: rotate(50deg);
+  -webkit-box-shadow: 0px 8px 57px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 8px 57px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 8px 57px 0px rgba(0,0,0,0.3);
+}
+
+
+
+.bx-type .lufthansa-logo {
+  width: 300px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.bx-row-subheadline-1 {
+  color: #000066;
+  font-size: 25px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: lighter;
+
+}
+
+.bx-row-headline-1, .bx-row-headline-2 {
+  color: #000066;
+  font-size: 60px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.bx-row-headline-2 {
+  font-size: 95px;
+  margin-top: -40px !important;
+}
+
+.bx-row-headline {
+  padding: 0;
+}
+
+.bx-row-email input {
+  width: 50% !important;
+  text-align: center;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: lighter;
+  color: #c2c2c2;
+  border: 1px solid rgb(255, 255, 255) !important;
+  -moz-box-shadow: inset 0 0 5px #9b9b9b;
+  -webkit-box-shadow: inset 0 0 5px #9b9b9b;
+  box-shadow: inset 0 0 5px #9b9b9b;
+  -webkit-box-shadow: 0px 6px 7px -2px rgba(0,0,0,0.30);
+  -moz-box-shadow: 0px 6px 7px -2px rgba(0,0,0,0.30);
+  box-shadow: 0px 6px 7px -2px rgba(0,0,0,0.30);
+}
+
+.bx-row-submit {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  width: 100%;
+
+}
+.bx-row-submit .arrow-icon-container {
+  width: 20%;
+}
+.bx-row-submit .join-now {
+  width: 80%;
+}
+
+.bx-row-submit button { /*Join Button*/
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  align-items: center;
+  -ms-flex-pack: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  padding: 0 !important;
+  width: 50% !important;
+  height: 75px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 40px;
+  background: -moz-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
+  background: -webkit-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
+  background: -ms-linear-gradient( 90deg, rgb(0,0,107) 0%, rgb(41,90,165) 100%);
+  -webkit-box-shadow: 0px 6px 7px -2px rgba(0,0,0,0.53);
+  -moz-box-shadow: 0px 6px 7px -2px rgba(0,0,0,0.53);
+  box-shadow: 0px 6px 7px -2px rgba(0,0,0,0.53);
+} /*End Join Button*/
+
+.bx-row-submit button span { /*Button separation line*/
+  position: absolute;
+  left: 22%;
+  top: 0;
+  bottom: 0;
+  border-width: 1px;
+  height: 72px;
+  border-style: solid;
+  -webkit-border-image:
+    -webkit-linear-gradient(#fff, rgba(0, 0, 0, 0)) 1;
+  -moz-border-image:
+    -moz-linear-gradient(#fff, rgba(0, 0, 0, 0)) 1;
+  -o-border-image:
+    -o-linear-gradient(#fff, rgba(0, 0, 0, 0)) 1;
+  border-image:
+    linear-gradient(to top, #fff, rgba(0, 0, 0, 0)) 1;
+}/*End Button separation line*/
+
+.no-thanks { /* Hide for Desktop*/
+  display: none;
+} /*End Hide for Desktop*/
+
+/*placeholder animations*/
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: text-indent 0.5s 0.5s ease;
+  text-indent: -100%;
+  opacity: .5;
+}
+.bx-row-email input:focus {
+  transition: text-indent 0.5s 0.5s
+  text-indent: -100%;
+  text-align: left;
+  color: #000;
+}
+/*End placeholder animations*/
+
+
+
+/*************************
+ *  Media Queries  *
+ *************************/
+@media (max-width: 786px) and (min-width: 320px) {
+  .bx-row-headline-1, .bx-row-headline-2 {
+    font-size: 30px;
+  }
+  .bx-row-headline-2 {
+    margin-top: -20px !important;
+  }
+  .bx-type .bx-creative  {
+    width: 320px;
+    min-height: 350px;
+  }
+  .bx-row-subheadline-1 {
+    font-size: 20px;
+  }
+  .bx-type .lufthansa-logo  {
+    width: 220px;
+    margin-bottom: 20px;
+  }
+  .triangle, .bx-type .bx-close-circle:after {
+    display: none;
+  }
+  .bx-row-email input {
+    width: 100% !important;
+    height: 40px;
+  }
+  .bx-row-submit button {
+    width: 100% !important;
+    font-size: 25px;
+    height: 55px;
+  }
+  .bx-row-submit button span {
+    height: 50px;
+  }
+
+  .no-thanks {
+    display: inherit;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #000066;
+  }
+  .no-thanks p {
+    cursor: pointer;
+  }
+
+}
