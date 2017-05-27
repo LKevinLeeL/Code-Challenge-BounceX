@@ -7,3 +7,4 @@ I was instructed to style the modals to match the image below.
 There was no design provided. I came up with the modal below.
 
 ![challenge2-shot](/../master/challenge_2/assets/challenge2-shot.png?raw=true "challenge2-shot")
+   
