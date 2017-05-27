@@ -6,4 +6,4 @@ I was instructed to style the modals to match the image below.
 ## Challenge #2
 There was no design provided. I came up with the modal below.
 
-![Alt text](/../master/challenge_2/assets/challenge2-shot.png?raw=true "challenge2-shot"){:width="50%"} 
+![Alt text](/../master/challenge_2/assets/challenge2-shot.png?raw=true "challenge2-shot" width="50%")
